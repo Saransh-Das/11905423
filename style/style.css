@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: rgba(233, 19, 19, 0.76);
+  font-size: 2rem;
+  text-decoration: none;
+  border: rgb(0, 30, 128);
+  background: rgb(170, 247, 94);
+  padding: 1rem;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.asas a {
+  color: black;
+}
+
+.image {
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.whole {
+  background-color: antiquewhite;
+}
