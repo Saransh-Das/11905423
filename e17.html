@@ -1,0 +1,19 @@
+<title>Clear Interval</title>
+</head>
+<body>
+    <img src="LPU.jpg" id="myImg">
+    <script>
+        var i = 10;
+        var intv=setInterval(a, 1000);
+
+        function a(){
+            i = i + 50;
+            var b = document.getElementById("myImg");
+            b.style.height = i + 'px';
+            if(i>=200){
+                clearInterval(intv);
+            }
+        }
+    </script>
+</body>
+</html>

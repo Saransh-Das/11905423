@@ -1,0 +1,24 @@
+<title>Javascript onchange event</title>
+    <style type="text/css">
+     select{height: 60px;width: 200px;}
+    </style>
+</head>
+<body>
+  <label>Select your state</label>  
+  <br> <br>
+  <select id="myOption" onchange="a()" class="form-control">
+      <option value="Punjab">Punjab</option>
+      <option value="Odisha">Odisha</option>
+      <option value="MadhyaPradesh">Madhys Pradesh</option>
+      <option value="Uttar Pradesh">Uttar Pradesh</option>
+      <option value="Jharkhand">Jharkhand</option>
+    </select>
+    <h1 id="myId"></h1>
+    <script>
+        function a(){
+            var i=document.getElementById("myOption").value;
+            document.getElementById("myId").innerHTML="You selected your state: " + i;
+        }
+    </script>
+</body>
+</html>
